@@ -22,7 +22,7 @@
 }
 
 .logo--black {
-    color: $logo-accent-color;
+    color: $icon-orange-color;
 }
 
 .navigation__logo {
@@ -79,13 +79,13 @@
 
     &:hover,
     &:focus {
-        color: $accent-color;
+        color: $icon-orange-color;
     }
 
     &--active {
         position: relative;
 
-        color: $accent-color;
+        color: $icon-orange-color;
     
     &::after {
             position: absolute;
@@ -96,7 +96,7 @@
             width: 100%;
             height: 4px;
 
-            background-color: $accent-color;
+            background-color: $icon-orange-color;
             border-radius: 2px;
             }
         }
@@ -150,7 +150,7 @@
 
     &:hover,
     &:focus {
-        color: $accent-color;
+        color: $icon-orange-color;
     }
 }   
 
